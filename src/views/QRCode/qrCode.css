@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #D6E1F0;
+}
+
+.card{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 27vw;
+    height: 55vh;
+}
+
+.qr-code{
+    background: #2B7EFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 25vw;
+    height: 35vh;
+}
+
+.title{
+    margin-top: 5px;
+}
+
+.input{
+    height: 38px;
+    border-radius: 8px;
+    max-width: 300px;
+    width: 80%;
+    margin: 24px 0;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #b6b6b6;
+}
